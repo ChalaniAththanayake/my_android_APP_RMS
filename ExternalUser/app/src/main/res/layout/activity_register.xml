@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/b"
+    tools:context="com.example.chalaniaththanayake.externaluser.RegisterActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etDOB"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+
+                    android:layout_alignLeft="@+id/etAge"
+                    android:layout_alignStart="@+id/etAge"
+                    android:layout_below="@+id/etAge"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/holo_orange_light"
+                    android:ems="10"
+                    android:hint="Date of Birth"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center"
+                    android:textColorHint="?attr/colorControlNormal"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etEmail" />
+
+                <EditText
+                    android:id="@+id/etFName"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+
+                    android:layout_alignLeft="@+id/etAge"
+                    android:layout_alignStart="@+id/etAge"
+                    android:layout_below="@+id/etAge"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@android:color/holo_orange_light"
+                    android:ems="10"
+                    android:hint="First Name"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center"
+                    android:textColorHint="?attr/colorControlNormal"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/etLName"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+
+                    android:layout_alignLeft="@+id/etAge"
+                    android:layout_alignStart="@+id/etAge"
+                    android:layout_below="@+id/etAge"
+                    android:layout_column="0"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_row="1"
+                    android:background="@android:color/holo_orange_light"
+                    android:ems="10"
+                    android:hint="Last Name"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center"
+                    android:textColorHint="?attr/colorControlNormal"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etFName" />
+
+                <EditText
+                    android:id="@+id/etUsername"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+
+                    android:layout_alignLeft="@+id/etAge"
+                    android:layout_alignStart="@+id/etAge"
+                    android:layout_below="@+id/etAge"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/holo_orange_light"
+                    android:ems="10"
+                    android:hint="Username"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center"
+                    android:textColorHint="?attr/colorControlNormal"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etLName" />
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+
+                    android:layout_alignEnd="@+id/etUsername"
+                    android:layout_alignLeft="@+id/etUsername"
+                    android:layout_alignRight="@+id/etUsername"
+                    android:layout_alignStart="@+id/etUsername"
+                    android:layout_below="@+id/etUsername"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/holo_orange_light"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textAlignment="center"
+                    android:textColorHint="?attr/colorControlNormal"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etUsername" />
+
+                <EditText
+                    android:id="@+id/etConfirmPassword"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+
+                    android:layout_alignEnd="@+id/etUsername"
+                    android:layout_alignLeft="@+id/etUsername"
+                    android:layout_alignRight="@+id/etUsername"
+                    android:layout_alignStart="@+id/etUsername"
+                    android:layout_below="@+id/etUsername"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/holo_orange_light"
+                    android:ems="10"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword"
+                    android:textAlignment="center"
+                    android:textColorHint="?attr/colorControlNormal"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+
+                <EditText
+                    android:id="@+id/et_hometown"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+
+                    android:layout_alignLeft="@+id/etCurrentPassword"
+                    android:layout_alignStart="@+id/etCurrentPassword"
+                    android:layout_below="@+id/etCurrentPassword"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/holo_orange_light"
+                    android:ems="10"
+                    android:hint="HomeTown"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center"
+                    android:textColorHint="?attr/colorControlNormal"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etConfirmPassword" />
+
+                <EditText
+                    android:id="@+id/etPhoneno"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/holo_orange_light"
+                    android:ems="10"
+                    android:hint="Phone Number"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:textColorHint="?attr/colorControlNormal"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/et_hometown" />
+
+                <EditText
+                    android:id="@+id/etEmail"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+
+                    android:layout_alignLeft="@+id/etCurrentPassword"
+                    android:layout_alignStart="@+id/etCurrentPassword"
+                    android:layout_below="@+id/etCurrentPassword"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@android:color/holo_orange_light"
+                    android:ems="10"
+                    android:hint="E-mail"
+                    android:inputType="textEmailAddress"
+                    android:textAlignment="center"
+                    android:textColorHint="?attr/colorControlNormal"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etPhoneno" />
+
+                <GridLayout
+                    android:id="@+id/gridLayout3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_row="10"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/etDOB"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_row="0"
+                        android:text="Skills: "
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/spinSkills"
+                        style="@android:style/Widget.Spinner"
+                        android:layout_width="130dp"
+                        android:layout_height="45dp"
+
+                        android:layout_alignBaseline="@+id/spinm"
+                        android:layout_alignBottom="@+id/spinm"
+                        android:layout_column="1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_row="0"
+                        android:layout_toLeftOf="@+id/spinm"
+                        android:layout_toStartOf="@+id/spinm"
+                        android:entries="@array/Skills"></Spinner>
+
+                    <Button
+                        android:id="@+id/btnAddSkill"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginLeft="5dp"
+                        android:layout_row="0"
+                        android:text="Add"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/btnRemoveSkill"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="3"
+                        android:layout_marginLeft="2dp"
+                        android:layout_row="0"
+                        android:text="Remove"
+                        android:textSize="12sp" />
+
+                </GridLayout>
+
+                <TextView
+                    android:id="@+id/tvSkills"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_row="11"
+                    android:text="Selected Skills:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/gridLayout3"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" />
+
+                <Button
+                    android:id="@+id/bRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_column="0"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_row="12"
+                    android:layout_toLeftOf="@+id/textView8"
+                    android:layout_toStartOf="@+id/textView8"
+                    android:text="Register"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    app:layout_constraintHorizontal_bias="0.501"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvSkills"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

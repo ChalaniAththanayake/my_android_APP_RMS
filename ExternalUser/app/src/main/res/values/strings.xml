@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">External User</string>
+    <string name="FCM_PREF">com.example.chalaniaththanayake.externaluser.fcm_pref</string>
+    <string name="FCM_Token">com.example.chalaniaththanayake.externaluser.fcm_token</string>
+
+    <string-array name="Skills">
+        <item>C</item>
+        <item>C++</item>
+        <item>C#</item>
+        <item>Java</item>
+        <item>Python</item>
+        <item>.Net</item>
+        <item>PHP</item>
+        <item>JavaScript</item>
+        <item>Jquery</item>
+        <item>Ajax</item>
+        <item>Html</item>
+        <item>CSS</item>
+        <item>Bootstrap</item>
+        <item>Spring</item>
+        <item>Hibernate</item>
+        <item>Servlet</item>
+        <item>Mysql</item>
+        <item>Kotlin</item>
+        <item>React Native</item>
+        <item>Xamarin</item>
+        <item>Ionic</item>
+        <item>Android Studio</item>
+        <item>Visual Studio</item>
+        <item>Eclipse</item>
+        <item>NetBeans</item>
+        <item>Photoshop</item>
+        <item>3Ds Max</item>
+        <item>Google Sketchup</item>
+        <item>Maya</item>
+        <item>Illustrator</item>
+        <item>iOS</item>
+        <item>Swift</item>
+        <item>Xcode</item>
+    </string-array>
+</resources>

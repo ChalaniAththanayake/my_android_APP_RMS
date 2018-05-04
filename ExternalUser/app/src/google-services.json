@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "130289251896",
+    "firebase_url": "https://externaluser-dc29e.firebaseio.com",
+    "project_id": "externaluser-dc29e",
+    "storage_bucket": "externaluser-dc29e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130289251896:android:29ac5b69cbeb0ee1",
+        "android_client_info": {
+          "package_name": "com.example.chalaniaththanayake.externaluser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130289251896-88ir54n2o81f5acpcfn376bd5csaon7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCazCLG6bdGomVCQ_-BJviJVkP6kGCwozs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
